@@ -1,0 +1,30 @@
+
+
+@mixin border-radius($property){
+  -webkit-border-radius:$property;
+  -moz-border-radius:$property;
+  -o-border-radius:$property;
+  border-radius: $property;
+}
+
+@mixin justify($loc){
+  -webkit-justify-content:$loc;
+  -moz-justify-content:$loc;
+  -o-justify-content:$loc;
+  justify-content: $loc;
+}
+
+
+@mixin items($align){
+  -webkit-align-items:$align;
+  -moz-align-items:$align;
+  -o-align-items:$align;
+  align-items: $align;
+}
+
+@mixin box-shadow($shadow){
+  -webkit-box-shadow:$shadow;
+  -moz-box-shadow:$shadow;
+  -o-box-shadow:$shadow;
+  box-shadow: $shadow;
+}
